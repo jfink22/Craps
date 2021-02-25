@@ -80,3 +80,49 @@ public class Craps
     }
     }
 }
+
+
+/* 
+
+COMMENTS FROM THE INSTRUCTOR:
+
+I love the clean look of this code, Jonathan--very easy to look through
+and understand. You didn't get a chance to implement the default (Y/n)
+option as described in the assignment handout. More importantly, there
+are some interesting issues that make the game not follow the rules of
+craps consistently. Here's a listing from my game play, with some comments:
+
+    Would you like to know the rules of the game? (yes/no)
+
+    Enjoy the game!
+    hit <Enter> to roll
+
+    Roll #1
+    You rolled a 7          7 on first roll means I should have won!
+    hit <Enter> to roll again
+
+    You rolled a 7
+    You lost the game!
+    Would you like to play again? (yes/no)
+
+    You rolled a 2
+    You lost the game!
+    Would you like to play again? (yes/no)
+
+    You rolled a 7          7 on this first roll and I *did* win!
+    You won the game!
+    Would you like to play again? (yes/no)
+
+    hit <Enter> to roll
+
+    You rolled a 6          6 on the first roll wins??! No!
+    You won the game!
+    Would you like to play again? (yes/no)
+
+So, the program runs, but the rules aren't correctly implemented. Some
+work to do still!
+
+SCORE: 11/15
+
+*/
+
